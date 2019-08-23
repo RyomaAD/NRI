@@ -11,7 +11,11 @@ body{
     text-decoration:none;
 }
 
-
+/*センター*/
+#pageBodyMain .articleDetailBody{
+    width:780px;
+    margin:0 auto;
+}
 /*メインビジュアル*/
 .mainVisual{
     margin:0;
@@ -76,4 +80,8 @@ body{
 #pageBodyMain h2{
     padding-left:35px;
     margin:0;
+}
+/*articleDetailBodyの中身の余白設定*/
+#pageBodyMain .articleDetailBody .image1{
+    margin:40px 0;
 }
