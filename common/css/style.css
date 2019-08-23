@@ -55,15 +55,15 @@ body{
 #pageBodyMain .shareBTN{
     height:25px;
 }
-#pageBodyMain ul{
+#pageBodyMain .share ul{
     margin:0;
 }
-#pageBodyMain ul:after{
+#pageBodyMain .share ul:after{
     content:"";
     clear:both;
     display:block;
 }
-#pageBodyMain ul li{
+#pageBodyMain .share ul li{
     list-style:none;
     widows: 40px;
     padding-left:20px;
@@ -82,6 +82,6 @@ body{
     margin:0;
 }
 /*articleDetailBodyの中身の余白設定*/
-#pageBodyMain .articleDetailBody .image1{
+#pageBodyMain .articleDetailBody img{
     margin:40px 0;
 }
