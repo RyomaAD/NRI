@@ -89,8 +89,17 @@ body{
 #pageBodyMain .btn {
     background: #005bac;
     border: solid 1px #005bac;
+    width:240px;
+    padding:20px 30px;
 }
-#pageBodyMain .btn li a{
+#pageBodyMain .btn p{
+    font-size:18px;
+    text-align:center;
+}
+#pageBodyMain .btn p:after{
+    content:url(../../images/icon/icon_4b_32.png)；
+}
+#pageBodyMain .btn a{
     color: #FFF;
     text-decoration: none;
 }
