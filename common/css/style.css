@@ -1,5 +1,7 @@
 body{
     font-family:"Noto Sans JP";
+    font-size:16px;
+    line-height:1.875;
 }
 
 .topicPath{
@@ -13,7 +15,7 @@ body{
 
 /*センター*/
 #pageBodyMain .articleDetailBody{
-    width:780px;
+    width:900px;
     margin:0 auto;
 }
 /*メインビジュアル*/
