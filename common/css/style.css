@@ -85,3 +85,12 @@ body{
 #pageBodyMain .articleDetailBody img{
     margin:40px 0;
 }
+/*PDFのボタン*/
+#pageBodyMain .btn {
+    background: #005bac;
+    border: solid 1px #005bac;
+}
+#pageBodyMain .btn li a{
+    color: #FFF;
+    text-decoration: none;
+}
