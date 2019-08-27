@@ -13,7 +13,7 @@ body{
 
 /*センター*/
 #pageBodyMain .articleDetailBody{
-    width:1000px;
+    width:750px;
     margin:0 auto;
 }
 /*メインビジュアル*/
@@ -66,7 +66,7 @@ body{
 #pageBodyMain .share ul{
     margin:0;
     width:250px;
-    height:30px;
+    height:25px;
 }
 
 #pageBodyMain .share ul:after{
@@ -106,8 +106,11 @@ body{
     font-size:16px;
     line-height:1.9;
 }
+
 /*articleDetailBodyの中身の余白設定*/
 #pageBodyMain .articleDetailBody img{
+    position:relative;
+    width:100%;
     margin:40px 0;
 }
 /*PDFのボタン*/
