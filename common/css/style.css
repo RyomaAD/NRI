@@ -117,8 +117,7 @@ body{
 #pageBodyMain .btn {
     background: #005bac;
     border: solid 1px #005bac;
-    width:240px;
-    padding:5px 10px;
+    width:300px;
     margin:0 auto;
 }
 #pageBodyMain .btn:hover{
@@ -129,18 +128,24 @@ body{
     line-height:1.1875;
     text-align:center;
     vertical-align:middle;
+    padding:0;
+    margin:0;
 }
-#pageBodyMain .btn p:before{
+#pageBodyMain .btn a:before{
     content:">";
     color: #fff;
     position:relative;
     top: 10px;
 
 }
-#pageBodyMain .btn p:after{
-    content:url(../../images/icon/icon_4b_32.png)；
+#pageBodyMain .btn a:after{
+    content: url("../../images/icon/icon_4b_24.png");
+    position:relative;
+    top:5px;
 }
 #pageBodyMain .btn a{
     color: #FFF;
     text-decoration: none;
+    display:block;
+    padding:13px 17px;
 }
