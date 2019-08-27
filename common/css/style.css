@@ -149,3 +149,21 @@ body{
     display:block;
     padding:13px 17px;
 }
+/*他のページへの移動*/
+#pageBodyMain .nextpage a{
+    text-decoration: none;
+    color:#0c419a;
+    font-size:16px;
+    line-height:1.8;
+}
+#pageBodyMain .nextpage:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+#pageBodyMain .nextpage .left{
+    float:left;
+}
+#pageBodyMain .nextpage .right{
+    float:right;
+}
