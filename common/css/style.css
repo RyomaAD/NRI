@@ -11,7 +11,7 @@ body{
     text-decoration:none;
 }
 
-/*センター*/
+/*センターとセクションの区切り目の罫線*/
 #pageBodyMain .articleDetailBody{
     width:750px;
     margin:0 auto;
@@ -20,6 +20,9 @@ body{
 #pageBodyMain aside{
     width:980px;
     margin:0 auto;
+}
+#pageBodyMain aside{
+    border:
 }
 /*メインビジュアル*/
 .mainVisual{
@@ -207,5 +210,32 @@ body{
     border-top:2px solid #333333;
     border-bottom:1px dotted #333333;
     padding-top:20px;
-    padding-bottom:25px;
+    padding-bottom:22px;
+}
+#pageBodyMain .articleDetailFoot p{
+    font-weight: bold;
+    margin:20px 0;
+
+}
+#pageBodyMain .articleDetailFoot a{
+    font-size:14px;
+    line-height:1.5;
+    text-decoration:none;
+    color:#0c419a;
+    display:inline-block;
+    width:24%;
+    margin-bottom:15px;
+}
+#pageBodyMain .articleDetailFoot a:before{
+    content:">　";
+    color:#333333;
+}
+#pageBodyMain .articleDetailFoot .localNav{
+    border-bottom: 1px dotted #333333;
+    padding-bottom:18px;
+}
+#pageBodyMain .articleDetailFoot .beforePage{
+    display:block;
+    padding:0;
+    margin:60px 0px 80px 0;
 }
