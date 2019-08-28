@@ -16,6 +16,11 @@ body{
     width:750px;
     margin:0 auto;
 }
+#pageBodyMain .articleDetailFoot,
+#pageBodyMain aside{
+    width:980px;
+    margin:0 auto;
+}
 /*メインビジュアル*/
 .mainVisual{
     margin:0;
@@ -195,3 +200,12 @@ body{
     margin:10px;
 }
 
+/*企業情報*/
+#pageBodyMain .articleDetailFoot h3{
+    font-size:20px;
+    line-height:1.9;
+    border-top:2px solid #333333;
+    border-bottom:1px dotted #333333;
+    padding-top:20px;
+    padding-bottom:25px;
+}
