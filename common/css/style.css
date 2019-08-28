@@ -22,7 +22,7 @@ body{
     margin:0 auto;
 }
 #pageBodyMain aside{
-    border:
+
 }
 /*メインビジュアル*/
 .mainVisual{
@@ -236,6 +236,46 @@ body{
 }
 #pageBodyMain .articleDetailFoot .beforePage{
     display:block;
-    padding:0;
+    padding-top:30px;
     margin:60px 0px 80px 0;
+}
+/*FollowUs*/
+#asideHeader{
+    border-top:2px solid #c8c8c8;
+    border-bottom:2px solid #c8c8c8;
+    margin-top:60px;
+}
+#asideHeader .follow{
+    height:110px;
+}
+#asideHeader .shareBTN{
+    height:25px;
+}
+#asideHeader .follow ul{
+    margin:0;
+    padding:0;
+    width:250px;
+    height:25px;
+}
+
+#asideHeader .follow ul:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+#asideHeader .follow ul:before{
+    content:"Share";
+    font-size:10px;
+    line-height:1.5;
+    color:#333333;
+    position:relative;
+    top:40px;
+    float: left;
+    height:110px;
+}
+#asideHeader .follow ul li{
+    list-style:none;
+    width: 40px;
+    padding-left:20px;
+    float:left;
 }
