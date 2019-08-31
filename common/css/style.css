@@ -245,10 +245,8 @@ body{
 #asideHeader{
     border-top:2px solid #c8c8c8;
     border-bottom:2px solid #c8c8c8;
-    margin-top:60px;
-}
-#asideHeader .follow{
     height:110px;
+    position:relative;
 }
 #asideHeader .shareBTN{
     height:25px;
@@ -256,8 +254,11 @@ body{
 #asideHeader .follow ul{
     margin:0;
     padding:0;
-    width:250px;
-    height:25px;
+    width:400px;
+    height:40px;
+    position:absolute;
+    bottom:50%;
+    right:50%;
 }
 
 #asideHeader .follow ul:after{
@@ -266,14 +267,14 @@ body{
     display:block;
 }
 #asideHeader .follow ul:before{
-    content:"Share";
-    font-size:10px;
+    content:"Follow Us";
+    font-size:24px;
     line-height:1.5;
     color:#333333;
     position:relative;
-    top:40px;
+    bottom:50%;
     float: left;
-    height:110px;
+    height:40px;
 }
 #asideHeader .follow ul li{
     list-style:none;
