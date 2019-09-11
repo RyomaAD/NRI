@@ -35,41 +35,6 @@ body{
     width:1000px;
     margin:0 auto;
 }
-/*ヘッダー*/
-#pageHead{
-    height:60px;
-    background-color:#FFF;
-    display:flex;
-    position:fixed;
-    z-index:5;
-    width:100%;
-    top:0;
-    left:0;
-}
-#pageHead #HeadLeft a img{
-    padding:15px 0 15px 60px;
-    margin:0;
-    height:30px;
-}
-#pageHead i{
-    font-size:26px;
-    color:#005bac;
-    box-sizing:border-box;
-    padding:17px 15px;
-    margin:0;
-}
-#pageHead #HeadRight img{
-    margin:0;
-    padding:0;
-}
-#HeadRight{
-    padding:0;
-    margin:0;
-    position:relative;
-    top:0;
-    right:0;
-}
-
 /*メインビジュアル*/
 .mainVisual{
     margin:0;
@@ -258,14 +223,10 @@ body{
 #pageBodyMain .tuyomi{
     background-color: #deecf8;
     width:800px;
-    height:260px;
+    height:500px
 }
 #pageBodyMain .tuyomi-box{
     display:inline-block;
-}
-#pageBodyMain .tuyomi h4{
-    padding:20px 0 0 20px;
-    margin:0;
 }
 #pageBodyMain .tuyomi a{
     font-size:16px;
@@ -286,12 +247,6 @@ body{
     background-size:5px;
     background-repeat:no-repeat;
     background-position:5% 50%;
-}
-#pageBodyMain .tuyomi-left{
-    margin-left:20px;
-}
-#pageBodyMain .tuyomi-right{
-    margin-right:20px;
 }
 /*企業情報*/
 #pageBodyMain .articleDetailFoot h3{
@@ -387,17 +342,10 @@ body{
 #aside a{
     color:#666666;
     text-decoration:none;
-    padding-left:20px;
     font-size:14px;
     line-height:1.5;
-    display:inline-block;
     box-sizing:border-box;
     width:240px;
-    background-image:url("../../images/icon/icon_right.svg");
-    background-size:contain;
-    background-size:4px;
-    background-repeat:no-repeat;
-    background-position: 0 6px;
 }
 #aside ul{
     padding:0;
@@ -450,7 +398,15 @@ body{
 #aside a:hover{
     border-bottom:1px solid #666666;
 }
-
+#aside a:before{
+    content: "";
+    background: url(../../images/icon/icon_right.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
 /*免責事項*/
 #pageFooter .globalNav a{
     text-decoration: none;

@@ -35,41 +35,6 @@ body{
     width:1000px;
     margin:0 auto;
 }
-/*ヘッダー*/
-#pageHead{
-    height:60px;
-    background-color:#FFF;
-    display:flex;
-    position:fixed;
-    z-index:5;
-    width:100%;
-    top:0;
-    left:0;
-}
-#pageHead #HeadLeft a img{
-    padding:15px 0 15px 60px;
-    margin:0;
-    height:30px;
-}
-#pageHead i{
-    font-size:26px;
-    color:#005bac;
-    box-sizing:border-box;
-    padding:17px 15px;
-    margin:0;
-}
-#pageHead #HeadRight img{
-    margin:0;
-    padding:0;
-}
-#HeadRight{
-    padding:0;
-    margin:0;
-    position:relative;
-    top:0;
-    right:0;
-}
-
 /*メインビジュアル*/
 .mainVisual{
     margin:0;
@@ -397,7 +362,7 @@ body{
     background-size:contain;
     background-size:4px;
     background-repeat:no-repeat;
-    background-position: 0 6px;
+    background-position: 0 2px;
 }
 #aside ul{
     padding:0;

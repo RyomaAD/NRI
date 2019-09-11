@@ -41,33 +41,15 @@ body{
     background-color:#FFF;
     display:flex;
     position:fixed;
-    z-index:5;
+    z-index:24;
     width:100%;
     top:0;
     left:0;
 }
-#pageHead #HeadLeft a img{
-    padding:15px 0 15px 60px;
+#pageHead a img{
+    padding:20px;
     margin:0;
-    height:30px;
-}
-#pageHead i{
-    font-size:26px;
-    color:#005bac;
-    box-sizing:border-box;
-    padding:17px 15px;
-    margin:0;
-}
-#pageHead #HeadRight img{
-    margin:0;
-    padding:0;
-}
-#HeadRight{
-    padding:0;
-    margin:0;
-    position:relative;
-    top:0;
-    right:0;
+    height:20px;
 }
 
 /*メインビジュアル*/

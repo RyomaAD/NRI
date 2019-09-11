@@ -62,14 +62,17 @@ body{
     margin:0;
     padding:0;
 }
-#HeadRight{
-    padding:0;
-    margin:0;
-    position:relative;
-    top:0;
-    right:0;
+#HeadLeft{
+    float:left;
 }
-
+#HeadRight{
+    float:right;
+}
+#pageHead:after{
+    content:"";
+    clear:both;
+    display:block;
+}
 /*メインビジュアル*/
 .mainVisual{
     margin:0;

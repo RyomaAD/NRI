@@ -62,12 +62,18 @@ body{
     margin:0;
     padding:0;
 }
+#pageHead:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+#HeadLeft{
+    float: left;
+}
 #HeadRight{
     padding:0;
     margin:0;
-    position:relative;
-    top:0;
-    right:0;
+    float: right;
 }
 
 /*メインビジュアル*/

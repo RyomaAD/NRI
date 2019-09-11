@@ -12,64 +12,18 @@ body{
 }
 
 /*センターとセクションの区切り目の罫線*/
-#page{
-    margin:120px 0;
-}
-.topicPath{
-    width:1000px;
-    margin:0 auto;
-}
 #pageBodyMain .articleDetailBody{
-    width:800px;
+    width:750px;
     margin:0 auto;
 }
 #pageBodyMain .articleDetailFoot{
-    width:1000px;
+    width:980px;
     margin:0 auto;
 }
 #aside{
-    width:1000px;
+    width:980px;
     margin:0 auto;
 }
-#pageFooter{
-    width:1000px;
-    margin:0 auto;
-}
-/*ヘッダー*/
-#pageHead{
-    height:60px;
-    background-color:#FFF;
-    display:flex;
-    position:fixed;
-    z-index:5;
-    width:100%;
-    top:0;
-    left:0;
-}
-#pageHead #HeadLeft a img{
-    padding:15px 0 15px 60px;
-    margin:0;
-    height:30px;
-}
-#pageHead i{
-    font-size:26px;
-    color:#005bac;
-    box-sizing:border-box;
-    padding:17px 15px;
-    margin:0;
-}
-#pageHead #HeadRight img{
-    margin:0;
-    padding:0;
-}
-#HeadRight{
-    padding:0;
-    margin:0;
-    position:relative;
-    top:0;
-    right:0;
-}
-
 /*メインビジュアル*/
 .mainVisual{
     margin:0;
@@ -83,24 +37,22 @@ body{
     padding:0;
     margin:0;
 }
-#pageBody #mainVisualText{
+#pageBody .mainVisualText{
     position:absolute;
+    left:50px;
+    bottom:50px;
     color:#FFF;
     background-color:rgba(0,0,0,0);
+    width: 420px;
+    padding:15px 25px;
     box-sizing:border-box;
-    top:45px;
-    left:220px;
 }
-#mainVisualText{
-    width:1000px;
-    margin:0 auto;
-}
-#pageBodyMain .articleDetailHead #mainVisualText p{
+#pageBodyMain .articleDetailHead .mainVisualText p{
     font-size:20px;
     line-height:1.4;
     margin:0;
 }
-#pageBodyMain #mainVisualText h1{
+#pageBodyMain .mainVisualText h1{
     font-size:28px;
     line-height:1.5;
     margin-bottom:0;
@@ -187,13 +139,12 @@ body{
     vertical-align:middle;
     padding:0;
     margin:0;
-    position:relative;
 }
 #pageBodyMain .btn a:before{
-    content: ">";
+    content: "";
     font-family: icomoon;
     font-weight: 400;
-    color: #FFF;
+    color: #231815;
     font-size: 10px;
     height: 10px;
     position: absolute;
@@ -216,14 +167,12 @@ body{
 /*他のページへの移動*/
 #pageBodyMain .nextpage{
     margin-top:60px;
-    margin-bottom:30px;
 }
 #pageBodyMain .nextpage a{
     text-decoration: none;
     color:#0c419a;
     font-size:16px;
     line-height:1.8;
-    padding:0;
 }
 #pageBodyMain .nextpage:after{
     content:"";
@@ -236,62 +185,34 @@ body{
 #pageBodyMain .nextpage .right{
     float:right;
 }
-#pageBodyMain .nextpage .left:before{
-    content: "";
-    background: url(../../images/icon/icon_left.svg);
-    background-repeat:no-repeat;
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 0;
-}
-#pageBodyMain .nextpage .right:after{
-    content: "";
-    background: url(../../images/icon/icon_right.svg);
-    background-repeat:no-repeat;
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    margin: 0;
-}
 /*NRIの強み*/
 #pageBodyMain .tuyomi{
     background-color: #deecf8;
-    width:800px;
-    height:260px;
-}
-#pageBodyMain .tuyomi-box{
-    display:inline-block;
-}
-#pageBodyMain .tuyomi h4{
-    padding:20px 0 0 20px;
-    margin:0;
+    width:750px;
+    height:500px
 }
 #pageBodyMain .tuyomi a{
-    font-size:16px;
-    line-height: 1.1875;
-    text-align: center;
     text-decoration:none;
     color: #0c419a;
-    padding: 20px;
-    display:inline-block;
-    box-sizing:border-box;
-    position:relative;
-    background-color: #FFF;
-    width:239px;
-    border:1px solid #CCC;
-    margin:15px 10px;
+    text-align:center;
+    padding:0;
+    width:236.666px;
+}
+#pageBodyMain .tuyomi .tuyomi-box:before{
+    content:"";
     background-image:url("../../images/icon/icon_right.svg");
-    background-size:contain;
-    background-size:5px;
     background-repeat:no-repeat;
-    background-position:5% 50%;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    position:relative;
+    top:12px;
 }
-#pageBodyMain .tuyomi-left{
-    margin-left:20px;
-}
-#pageBodyMain .tuyomi-right{
-    margin-right:20px;
+#pageBodyMain .tuyomi .tuyomi-box p{
+    background-color: #FFF;
+    width:236.666px;
+    margin:10px;
 }
 /*企業情報*/
 #pageBodyMain .articleDetailFoot h3{
@@ -317,8 +238,8 @@ body{
 }
 #pageBodyMain .articleDetailFoot a:before{
     content: "";
-    background: url(../../images/icon/icon_right.svg);
-    background-repeat:no-repeat;
+    background: url(../../images/icon/icon_right.svg) no-repeat;
+    background-size: contain;
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -332,13 +253,8 @@ body{
     margin:60px 0px 80px 0;
 }
 #pageBodyMain .articleDetailFoot .beforePage a:before{
-    content:"";
-    background-image:url(../../images/icon/icon_left.svg);
-    background-repeat:no-repeat;
-    display:inline-block;
-    width: 8px;
-    height:8px;
-    margin:0 6px 0 0 ;
+    content:"<　";
+    color:#333333;
 }
 /*FollowUs*/
 #asideHeader{
@@ -387,17 +303,10 @@ body{
 #aside a{
     color:#666666;
     text-decoration:none;
-    padding-left:20px;
     font-size:14px;
     line-height:1.5;
-    display:inline-block;
     box-sizing:border-box;
     width:240px;
-    background-image:url("../../images/icon/icon_right.svg");
-    background-size:contain;
-    background-size:4px;
-    background-repeat:no-repeat;
-    background-position: 0 6px;
 }
 #aside ul{
     padding:0;
@@ -450,15 +359,21 @@ body{
 #aside a:hover{
     border-bottom:1px solid #666666;
 }
-
+#aside a:before{
+    content: "";
+    background: url(../../images/icon/icon_right.svg) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 0 6px 0 0;
+}
 /*免責事項*/
 #pageFooter .globalNav a{
     text-decoration: none;
     font-size:12px;
     line-height:1.5;
     color:#999999;
-    padding:0 15px 0 15px;
-    border-right:1px solid #999999;
 }
 #pageFooter .globalNav a:hover{
     text-decoration:underline;
@@ -466,22 +381,14 @@ body{
 #pageFooter .globalNav ul{
     margin:0;
     padding:0;
-    list-style:none;
 }
 #pageFooter .globalNav ul:after{
     content:"";
     clear:both;
     display:block;
 }
-#pageFooter .globalNav li{
-    padding:0;
-    margin:0;
+#pageFooter .globalNav ul li{
+    list-style:none;
+    padding:0 10px 0 10px;
     float:left;
-}
-/*コピーライト*/
-#copyright small{
-    font-size:10px;
-    line-height:1.9;
-    font-family:HelveticaNeue;
-    color:#333333;
 }
