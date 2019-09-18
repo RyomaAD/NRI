@@ -15,12 +15,12 @@ body{
 #page{
     margin:120px 0;
 }
-.topicPath{
-    width:1000px;
-    margin:0 auto;
-}
 #pageBodyMain .articleDetailBody{
     width:800px;
+    margin:0 auto;
+}
+.topicPath{
+    width:1000px;
     margin:0 auto;
 }
 #pageBodyMain .articleDetailFoot{
