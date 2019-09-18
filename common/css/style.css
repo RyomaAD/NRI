@@ -45,7 +45,7 @@ body{
     top:0;
     left:0;
 }
-#pageHead #HeadLeft a img{
+#pageHead #headLeft a img{
     padding:15px 0 15px 60px;
     margin:0;
     height:30px;
@@ -56,8 +56,10 @@ body{
     box-sizing:border-box;
     padding:17px 15px;
     margin:0;
+    position:relative;
+    bottom:22px;
 }
-#pageHead #HeadRight img{
+#pageHead #headRight img{
     margin:0;
     padding:0;
 }
@@ -66,13 +68,13 @@ body{
     clear:both;
     display:block;
 }
-#HeadRight{
+#headRight{
     height:60px;
     padding:0;
     margin:0;
     float:right;
 }
-#HeadLeft{
+#headLeft{
     padding:0;
     margin:0;
     float:left;
@@ -261,6 +263,9 @@ body{
     height: 12px;
     margin: 0;
 }
+#pageBodyMain .nextpage a:hover{
+    text-decoration-line: underline;
+}
 /*NRIの強み*/
 #pageBodyMain .tuyomi{
     background-color: #deecf8;
@@ -294,11 +299,19 @@ body{
     background-repeat:no-repeat;
     background-position:5% 50%;
 }
+#pageBodyMain .tuyomi a:hover{
+    opacity:0.5;
+}
 #pageBodyMain .tuyomi-left{
     margin-left:20px;
 }
 #pageBodyMain .tuyomi-right{
     margin-right:20px;
+}
+#pageBodyMain .tuyomi-height{
+    background-color:#fff;
+    height:80px;
+    bottom:19px;
 }
 /*企業情報*/
 #pageBodyMain .articleDetailFoot h3{
@@ -321,6 +334,9 @@ body{
     display:inline-block;
     width:24%;
     margin-bottom:15px;
+}
+#pageBodyMain .articleDetailFoot a:hover{
+    text-decoration-line: underline;
 }
 #pageBodyMain .articleDetailFoot a:before{
     content: "";
@@ -347,6 +363,7 @@ body{
     height:8px;
     margin:0 6px 0 0 ;
 }
+
 /*FollowUs*/
 #asideHeader{
     border-top:2px solid #999;
@@ -397,14 +414,16 @@ body{
     padding-left:20px;
     font-size:14px;
     line-height:1.5;
-    display:inline-block;
-    box-sizing:border-box;
-    width:240px;
+    display:block;
+    width:200px;
     background-image:url("../../images/icon/icon_right.svg");
     background-size:contain;
     background-size:4px;
     background-repeat:no-repeat;
     background-position: 0 6px;
+}
+#aside a p{
+
 }
 #aside ul{
     padding:0;
@@ -455,7 +474,7 @@ body{
     margin-right:0;
 }
 #aside a:hover{
-    border-bottom:1px solid #666666;
+    text-decoration:underline;
 }
 
 /*免責事項*/
@@ -467,8 +486,8 @@ body{
     padding:0 15px 0 15px;
     border-right:1px solid #999999;
 }
-#pageFooter .globalNav a:hover{
-    text-decoration:underline;
+.globalNav a:hover{
+    text-decoration-line:underline;
 }
 #pageFooter .globalNav ul{
     margin:0;

@@ -46,7 +46,7 @@ body{
     top:0;
     left:0;
 }
-#pageHead #HeadLeft a img{
+#pageHead #headLeft a img{
     padding:15px 0 15px 60px;
     margin:0;
     height:30px;
@@ -58,7 +58,7 @@ body{
     padding:17px 15px;
     margin:0;
 }
-#pageHead #HeadRight img{
+#pageHead #headRight img{
     margin:0;
     padding:0;
 }
@@ -67,11 +67,11 @@ body{
     clear:both;
     display:block;
 }
-#HeadLeft{
+#headLeft{
     float: left;
     width:240px;
 }
-#HeadRight{
+#headRight{
     padding:0;
     margin:0;
     float: right;
