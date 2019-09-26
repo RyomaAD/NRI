@@ -273,7 +273,7 @@ body{
 #pageBodyMain .tuyomi{
     background-color: #deecf8;
     width:800px;
-    height:260px;
+    height:280px;
 }
 #pageBodyMain .tuyomi-box{
     display:inline-block;
@@ -311,10 +311,11 @@ body{
 #pageBodyMain .tuyomi-right{
     margin-right:20px;
 }
-#pageBodyMain .tuyomi-height{
-    background-color:#fff;
+#pageBodyMain .tuyomi .tuyomi-height{
     height:80px;
-    bottom:19px;
+    padding:30px 20px;
+    margin:0px 10px;
+    bottom:10px;
 }
 /*企業情報*/
 #pageBodyMain .articleDetailFoot h3{
@@ -425,9 +426,6 @@ body{
     background-repeat:no-repeat;
     background-position: 0 6px;
 }
-#aside a p{
-
-}
 #aside ul{
     padding:0;
 }
@@ -466,20 +464,19 @@ body{
 #aside .list3{
     padding-bottom:60px;
 }
-#aside p{
-    border-top: 1px solid #CCC;
-    border-bottom:1px solid #CCC;
-    padding:15px 0;
-    width:220px;
-    margin-right:25px;
-}
 #aside  p .list-last{
     margin-right:0;
 }
 #aside a:hover{
     text-decoration:underline;
 }
-
+#aside .list-Head{
+    border-top: 1px solid #CCC;
+    border-bottom:1px solid #CCC;
+    padding:15px 0;
+    width:220px;
+    margin-right:25px;
+}
 /*免責事項*/
 #pageFooter .globalNav a{
     text-decoration: none;
